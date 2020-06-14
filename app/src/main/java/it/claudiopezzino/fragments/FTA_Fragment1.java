@@ -16,7 +16,7 @@ import androidx.fragment.app.Fragment;
 
 public class FTA_Fragment1 extends Fragment implements View.OnClickListener{
 
-//     private MyViewModel vmodel;
+//  private MyViewModel vmodel;
      private Fragment1Listener activityCallback;
      private TextView tv_text;
 

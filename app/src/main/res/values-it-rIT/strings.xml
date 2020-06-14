@@ -14,5 +14,12 @@
     <string name="fragment_title1">This is Fragment 1</string>
     <string name="fragment_title2">This is Fragment 2</string>
     <string name="fragment_to_activity_communication">Comunicazione tra Fragments e Activity</string>
+    <string name="view_model_communication">View Model Communication</string>
+    <string name="this_is_the_activity">This is the Activity</string>
+    <string name="insert_message_here">Inserire messaggio</string>
+    <string name="send_to_fragment1">Invia a fragment 1</string>
+    <string name="send_to_activity">invia All\' activity</string>
+    <string name="send_to_fragment_2">invia al fragment 2</string>
+    <string name="viewmodel_communication">ViewModel communication</string>
 
 </resources>

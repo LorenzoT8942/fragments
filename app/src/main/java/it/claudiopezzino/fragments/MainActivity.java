@@ -16,8 +16,10 @@ public class MainActivity extends AppCompatActivity {
         new Holder();
     }
 
-    class Holder implements View.OnClickListener{
 
+
+    class Holder implements View.OnClickListener{
+        Button btn_ViewModel_communication;
         Button btn_single_fragment;
         Button btn_multiple_fragments;
 
@@ -25,9 +27,11 @@ public class MainActivity extends AppCompatActivity {
 
             btn_single_fragment = findViewById(R.id.btn_activity_communication);
             btn_multiple_fragments = findViewById(R.id.btn_multiple_fragments);
+            btn_ViewModel_communication = findViewById(R.id.btn_vm);
 
             btn_single_fragment.setOnClickListener(this);
             btn_multiple_fragments.setOnClickListener(this);
+            btn_ViewModel_communication.setOnClickListener(this);
 
         }
 
@@ -41,6 +45,11 @@ public class MainActivity extends AppCompatActivity {
 
             if (v.getId() == R.id.btn_activity_communication){
                 Intent intent = new Intent(MainActivity.this, FragmentToActivity.class);
+                startActivity(intent);
+            }
+
+            if(v.getId() == R.id.btn_vm){
+                Intent intent = new Intent(MainActivity.this, VM_Activity.class);
                 startActivity(intent);
             }
         }

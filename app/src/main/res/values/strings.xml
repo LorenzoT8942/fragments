@@ -13,5 +13,12 @@
     <string name="fragment_title1">This is Fragment 1</string>
     <string name="fragment_title2">This is Fragment 2</string>
     <string name="fragment_to_activity_communication">Fragment to Activity communication</string>
+    <string name="view_model_communication">View Model Communication</string>
+    <string name="this_is_the_activity">This is the Activity</string>
+    <string name="insert_message_here">Insert message here</string>
+    <string name="send_to_fragment1">Send to Fragment1</string>
+    <string name="send_to_activity">send to activity</string>
+    <string name="send_to_fragment_2">send to fragment 2</string>
+    <string name="viewmodel_communication">ViewModel communication</string>
 
 </resources>

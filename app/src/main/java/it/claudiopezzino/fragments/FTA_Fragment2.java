@@ -11,13 +11,14 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
 //import android.widget.TextView;
 
 public class FTA_Fragment2 extends Fragment implements View.OnClickListener{
 
-//    private MyViewModel vmodel;
+  private MyViewModel vmodel;
      private Fragment2Listener activityCallback;
     TextView tv_text;
 
@@ -69,13 +70,11 @@ public class FTA_Fragment2 extends Fragment implements View.OnClickListener{
     public void onClick(View view) {
         if (view.getId() == R.id.btn_1){
             activityCallback.onFragment2Button1Click();
-//            vmodel.setText("Hello from fragment 2");
         }
 
         if (view.getId() == R.id.btn_2){
             activityCallback.onFragment2Button2Click();
         }
-
     }
 
     public interface Fragment2Listener {
